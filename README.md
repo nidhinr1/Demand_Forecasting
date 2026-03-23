@@ -64,6 +64,51 @@ The model achieved the following performance:
 
 ---
 
+## Model Results
+
+### 1. Actual vs Predicted Sales
+
+<p align="center">
+  <img src="images/actualvspredicted.png" width="700"/>
+</p>
+
+This graph compares actual sales values with predicted values, showing that the model effectively captures demand patterns.
+
+---
+
+### 2. Feature Importance
+
+<p align="center">
+  <img src="images/featureimportance.png" width="700"/>
+</p>
+
+This plot highlights the most influential features used by the model, with lag and temporal features contributing significantly to predictions.
+
+---
+
+### 3. Model Performance
+
+<p align="center">
+  <img src="images/modelperf1.png" width="600"/>
+</p>
+<p align="center">
+  <img src="images/modelperf2.png" width="600"/>
+</p>
+
+These plots provide additional evaluation perspectives, confirming the model’s consistency and reliability.
+
+---
+
+### 4. Prediction Error Detection (PED)
+
+<p align="center">
+  <img src="images/ped.png" width="700"/>
+</p>
+
+The Prediction Error Detection (PED) graph visualizes the distribution of errors, helping identify where the model deviates from actual values.
+
+---
+
 ## Result Interpretation
 
-The model demonstrates strong predictive performance with low error values across all evaluation metrics. The relatively low SMAPE indicates that the model performs consistently well across different sales volumes, making it suitable for real-world retail demand forecasting and inventory planning applications.
+The model demonstrates strong predictive performance with low error values across all evaluation metrics. The relatively low SMAPE indicates consistent accuracy across varying sales volumes, making the model suitable for real-world retail demand forecasting and inventory planning applications.
